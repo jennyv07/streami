@@ -1,0 +1,24 @@
+.nav{
+   
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+
+    transition-timing-function: ease-in;
+    transition: all .5s;
+
+}
+.nav-logo{
+    padding: 20px !important;
+
+    object-fit: contain !important;
+    width: 90px !important;
+    left: 0;
+    position: fixed;
+}
+.nav-black{
+    background-color: #111;
+    height: 30px;
+}
